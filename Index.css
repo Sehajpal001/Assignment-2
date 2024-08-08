@@ -1,0 +1,10 @@
+/* Example styles */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+/* Add more styles as needed */

@@ -1,0 +1,90 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+
+        body {
+            background-color: #f4f4f4;
+            font-family: sans-serif;
+          }
+          
+          .container {
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            margin: 50px auto;
+            max-width: 400px;
+          }
+          
+          h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #333;
+          }
+          
+          label {
+            display: block;
+            margin-bottom: 5px;
+            color: #333;
+          }
+          
+          input[type="text"],
+          input[type="email"],
+          input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+          }
+          
+          input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+          }
+          
+          input[type="submit"]:hover {
+            background-color: #45a049;
+          }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Registration Form</h1>
+        <form action="" method="POST">
+            <label for="firstname">First name:</label>
+            <input type="text" id="firstname" name="firstname" autofocus><br>
+
+            <label for="lastname">Last name:</label>
+            <input type="text" id="lastname" name="lastname"><br>
+
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address"><br>
+
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city"><br>
+
+            <label for="state">State:</label>
+            <input type="text" id="state" name="state"><br>
+
+            <label for="zip">Zip code:</label>
+            <input type="text" id="zip" name="zip"><br>
+
+            <input type="submit" id="button" value="Register">
+            <input type="reset" name="reset" id="reset">
+        </form>
+    </div>
+</body>
+</html>
